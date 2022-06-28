@@ -1,0 +1,45 @@
+.category-nav{
+    height: 4rem;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.category-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-nav ul a{
+    text-decoration: none;
+    color: black;
+    line-height: 4rem;
+    font-family: 'Piazzolla', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.category-nav ul a img{
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+}
+
+@media all and (max-width: 420px) {
+    .category-nav{
+        height: 7rem;
+        padding-right: 1rem;
+    }
+
+    .category-nav ul{
+      margin-top: 0.8rem;
+      margin-right: 0.5rem;
+    }
+
+    .category-nav ul a{
+        line-height: 4rem;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+}

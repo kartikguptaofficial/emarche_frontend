@@ -1,0 +1,41 @@
+.whole{
+    width: 95%;
+    margin: 1rem auto;
+    display: flex;
+}
+
+.product-img{
+    width: 35%;
+}
+
+.product-details{
+    padding: 1rem;
+    text-align: center;
+    width: 65%;
+}
+
+.product-desc{
+    width: 50%;
+    margin: 4rem auto;
+}
+
+@media all and (max-width: 420px) {
+    .whole{
+        display: block;
+    }
+
+    .product-img{
+        width: 100%;
+    }
+    
+    .product-details{
+        padding: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .product-desc{
+        width: 70%;
+        margin: 2rem auto;
+    }
+}

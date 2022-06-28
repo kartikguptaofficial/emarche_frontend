@@ -1,0 +1,36 @@
+fieldset{
+    padding: 1rem 0;
+}
+
+.products-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card{
+    width: 18rem;
+    height: 12rem;
+}
+
+
+@media all and (max-width: 420px) {
+    .products-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.4rem;
+    }
+    
+    .card{
+        width: 10rem;
+        height: 12rem;
+    }
+
+    .card-body h5{
+        font-size: 1rem;
+    }
+    
+    .card-body p{
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+}

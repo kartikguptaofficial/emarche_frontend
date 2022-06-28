@@ -1,0 +1,66 @@
+.carousel{
+    margin-top: 1rem;
+}
+
+.carousel img{
+    height: 25rem;
+}
+
+fieldset{
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    width: 98%;
+    margin: 1rem auto;
+}
+
+fieldset legend{
+    text-align: center;
+    font-family: 'Pangolin', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.products-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 95%;
+    margin: 2rem auto;
+}
+
+.products-cards div .card{
+    width: 18rem;
+    height: 19rem;
+}
+
+.products-cards div .card img{
+    height: 9rem;
+}
+
+
+@media all and (max-width: 420px) {
+    .carousel img{
+        height: 15rem;
+    }
+    
+    fieldset legend{
+        font-size: 3rem;
+    }
+    .products-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.4rem;
+    }
+    
+    .products-cards div .card{
+        width: 10rem;
+    }
+
+    .card-body h5{
+        font-size: 1rem;
+    }
+    
+    .card-body p{
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Mens T-shirt",
+            "description": "Good Quality",
+            "costprice": 200,
+            "sellingprice": 300,
+            "gender": "male",
+            "category": "clothing",
+            "img1": "https://meesho.com/_next/image?url=https%3A%2F%2Fimages.meesho.com%2Fimages%2Fproducts%2F65571451%2Fyhepu_512.jpg&w=1920&q=75",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        },
+        {
+            "id": 2,
+            "name": "Womens T-shirt",
+            "description": "Good Quality",
+            "costprice": 150,
+            "sellingprice": 250,
+            "gender": "female",
+            "category": "clothing",
+            "img1": "https://meesho.com/_next/image?url=https%3A%2F%2Fimages.meesho.com%2Fimages%2Fproducts%2F65571451%2Fyhepu_512.jpg&w=1920&q=75",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        },
+        {
+            "id": 3,
+            "name": "Sports shoes",
+            "description": "Good Quality",
+            "costprice": 450,
+            "sellingprice": 550,
+            "gender": "male",
+            "category": "footwear",
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    ]
+}

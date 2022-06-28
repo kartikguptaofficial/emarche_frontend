@@ -1,0 +1,141 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(360deg, rgb(100,100,100), rgb(50,50,50));
+    color: white;
+    height: 5rem;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+nav h2{
+    line-height: 4.8rem;
+    font-family: 'Rubik Puddles', sans-serif;
+    font-size: 3rem;
+}
+
+.middle-list{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    line-height: 5rem;
+}
+.middle-list a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+}
+.middle-list a:hover{
+    color: rgb(207, 179, 179);
+    text-decoration: overline;
+}
+
+.btn-list{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-top: 1.75rem;
+}
+.btn-list a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+}
+.btn-list a:hover{
+    background-color: rgb(207, 179, 179);
+    color: black;
+}
+
+.nav-menu{
+    line-height: 5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.user-name{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.responsive-nav{
+    background: linear-gradient(360deg, rgb(100,100,100), rgb(50,50,50));
+    height: 18rem;
+    display: none;
+}
+
+.middle-list-resp{
+    text-align: center;
+    list-style: none;
+}
+
+.middle-list-resp li{
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+}
+
+.middle-list-resp li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+}
+
+.middle-list-resp li a:hover{
+    color: rgb(207, 179, 179);
+    text-decoration: overline;
+}
+
+.btn-list-resp{
+    list-style: none;
+    text-align: center;
+    margin: 1rem;
+}
+
+.btn-list-resp li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    border: 1px solid white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.btn-list-resp li a:hover{
+    background-color: rgb(207, 179, 179);
+    color: black;
+}
+
+@media all and (max-width: 420px) {
+    nav{
+        width: 100%;
+    }   
+
+    nav h2{
+        font-size: 2.5rem;
+    }
+
+    .middle-list{
+        display: none;
+    }
+
+    .btn-list{
+        display: none;
+    }
+
+    .nav-menu{
+        display: block;
+    }
+
+    .user-name{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+}

@@ -1,0 +1,59 @@
+.footer{
+    background: linear-gradient(360deg, rgb(100,100,100), rgb(50,50,50));
+    color: white;
+    padding: 1rem;
+}
+
+.first-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.first-div ul{
+    list-style: square;
+}
+
+.instagram-ad a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.instagram-ad img{
+    height: 2rem;
+    margin-right: 0.7rem;
+}
+
+.copyright-line p{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+@media all and (max-width: 420px) {
+    .first-div ul li{
+        font-size: 0.6rem;
+        margin-right: 1rem;
+    }
+
+    .instagram-ad a{
+       font-size: 0.8rem;
+       color: white;
+    }
+    
+    .instagram-ad img{
+        height: 1rem;
+        margin-right: 0.2rem;
+    }
+
+    .instagram-ad h6{
+        font-size: 0.7rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .copyright-line p{
+        margin-top: 1.5rem;
+        font-size: 0.8rem;
+    }
+}
