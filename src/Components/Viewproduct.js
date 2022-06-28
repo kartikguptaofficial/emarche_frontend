@@ -39,10 +39,13 @@ export default function Viewproduct() {
                     <img src={item.img1} class="d-block w-100" alt="..."/>
                   </div>
                   <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="..."/>
+                    <img src={item.img2} class="d-block w-100" alt="..."/>
                   </div>
                   <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="..."/>
+                    <img src={item.img3} class="d-block w-100" alt="..."/>
+                  </div>
+                  <div class="carousel-item">
+                    <img src={item.img4} class="d-block w-100" alt="..."/>
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
