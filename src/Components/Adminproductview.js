@@ -51,8 +51,8 @@ export default function Adminproductview() {
                                         <div className="card-body">
                                             <h5 className="card-title">{item.name}</h5>
                                             <p className="card-text">Rs.{item.sellingprice}</p>
-                                            <Link to={`view/${item._id}`} className="btn btn-outline-danger">Explore</Link>
-                                            <Link to={`edit/${item._id}`} className="btn btn-outline-success">Edit</Link>
+                                            <Link to={`/view/${item._id}`} className="btn btn-outline-danger">Explore</Link>
+                                            {/* <Link to={`/edit/${item._id}`} className="btn btn-outline-success">Edit</Link> */}
                                         </div>
                                     </div>
                                 </div>

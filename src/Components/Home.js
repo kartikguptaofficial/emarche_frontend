@@ -64,6 +64,7 @@ export default function Home() {
                         })
                     }
                 </div>
+                <p className='more-details-line'>For more details view the clothing/footwear section</p>
             </fieldset>
 
 

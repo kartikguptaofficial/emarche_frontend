@@ -25,8 +25,15 @@ const [password, setPassword] = useState("");
         }) 
 
         if(post) {
+          const data = await post.json()
+          // console.log(data)
+          if(data.msg === "You are already registered"){
+            window.alert("This email is already registered. You can login")
+          }
+          else{
             window.alert("Account created...");
             window.location.href = '/login';
+          }
         }
     }
 

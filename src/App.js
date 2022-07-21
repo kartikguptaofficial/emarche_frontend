@@ -13,6 +13,7 @@ import Viewproduct from './Components/Viewproduct';
 import Admin from './Components/Admin';
 import Adminproductview from './Components/Adminproductview';
 import Contact from './Components/Contact';
+import AdminProductEdit from './Components/AdminProductEdit';
 
 const AllProducts = createContext();
 const newProducts = createContext();

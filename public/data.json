@@ -2,42 +2,39 @@
     "data": [
         {
             "id": 1,
-            "name": "Mens T-shirt",
-            "description": "Good Quality",
-            "costprice": 200,
-            "sellingprice": 300,
-            "gender": "male",
-            "category": "clothing",
-            "img1": "https://meesho.com/_next/image?url=https%3A%2F%2Fimages.meesho.com%2Fimages%2Fproducts%2F65571451%2Fyhepu_512.jpg&w=1920&q=75",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "name": "UNISEX SNEAKERS COPY AIR JORDAN",
+            "costprice": 484,
+            "sellingprice": 649,
+            "gender": "unisex",
+            "category": "footwear",
+            "img1": "https://images.meesho.com/images/products/114739658/5tfbr_512.webp"
         },
         {
             "id": 2,
-            "name": "Womens T-shirt",
-            "description": "Good Quality",
-            "costprice": 150,
-            "sellingprice": 250,
-            "gender": "female",
+            "name": "Trendy Graceful Men Tshirt",
+            "costprice": 227,
+            "sellingprice": 349,
+            "gender": "male",
             "category": "clothing",
-            "img1": "https://meesho.com/_next/image?url=https%3A%2F%2Fimages.meesho.com%2Fimages%2Fproducts%2F65571451%2Fyhepu_512.jpg&w=1920&q=75",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "https://images.meesho.com/images/products/74320697/0ngcg_512.webp"
         },
         {
             "id": 3,
-            "name": "Sports shoes",
-            "description": "Good Quality",
-            "costprice": 450,
-            "sellingprice": 550,
+            "name": "Trendy Latest Men Tshirts",
+            "costprice": 191,
+            "sellingprice": 299,
+            "gender": "male",
+            "category": "clothing",
+            "img1": "https://images.meesho.com/images/products/50389616/fvga8_512.webp"
+        },
+        {
+            "id": 3,
+            "name": "Men Black Sports Shoes - Sneakers",
+            "costprice": 455,
+            "sellingprice": 549,
             "gender": "male",
             "category": "footwear",
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "https://images.meesho.com/images/products/76169445/ipekd_512.webp"
         }
     ]
 }

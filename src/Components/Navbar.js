@@ -18,7 +18,7 @@ export default function Navbar() {
     })
   
     const data = await res.json();
-    // console.log(data.user.admin)
+    console.log(data.user.admin)
     if(data.user) {
       setLogin(true);
       setUserName(data.user.name);
@@ -27,11 +27,10 @@ export default function Navbar() {
       setAdmin(true)
     }
   }
-  
+
     useEffect(() => {
       getUser()
     }, [])
-      // console.log(admin)
 
     function logout(e) {
       e.preventDefault();

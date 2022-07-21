@@ -36,6 +36,9 @@ fieldset legend{
     height: 9rem;
 }
 
+.more-details-line{
+    text-align: center;
+}
 
 @media all and (max-width: 420px) {
     .carousel img{

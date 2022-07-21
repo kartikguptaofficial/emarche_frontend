@@ -51,7 +51,7 @@ useEffect(() => {
                 <input type="email" name='email' id='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder=" Enter your email"/>
                 <label htmlFor="password">Password</label>
                 <input type="password" name='password' id='password' value={password} onChange={(e) => setPassword(e.target.value)} placeholder=" Enter your password"/>
-                <button type="submit" className='btn btn-danger'>Register</button>
+                <button type="submit" className='btn btn-danger'>Login</button>
             </form>
 
             <Link to="/signup"><p>New User? Sign up</p></Link>

@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import '../Styles/Admin.css'
 import { Link } from 'react-router-dom';
 
 export default function Admin() {
+
+    useEffect(() => {
+        document.title = "Admin Panel | E Marche"
+    })
 
     const [name, setName] = useState("");
     const [description, setDescription] = useState("");
